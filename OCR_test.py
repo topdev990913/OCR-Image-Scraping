@@ -54,7 +54,7 @@ def with_tesseract(image_path):
     return resultText
 
 def _main():
-    root_dir = "images"
+    root_dir = "images_test"
     image_names = os.listdir(root_dir)
     for image_name in image_names:
         
